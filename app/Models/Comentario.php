@@ -5,17 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Solicitud extends Model
+class Comentario extends Model
 {
     use HasFactory;
 
     protected $guarded = [];
 
-    protected $table = 'solicitudes'; 
-
-    public function equipo()
+    public function post()
     {
-        return $this->belongsTo(Equipo::class);
+        return $this->belongsTo(Post::class);
     }
 
     public function user()

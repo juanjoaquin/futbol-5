@@ -16,7 +16,8 @@ return new class extends Migration
             $table->string('lugar');
             $table->string('dia');
             $table->string('horario');
-            $table->foreignId('leader_id')->constrained('users')->onDelete('cascade'); 
+            $table->foreignId('leader_id')->constrained('users')->onDelete('cascade');
+            $table->foreignId('equipo_id')->constrained('equipos')->onDelete('cascade'); //
             $table->timestamps();
         });
     }

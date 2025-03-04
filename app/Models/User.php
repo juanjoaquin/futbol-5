@@ -33,7 +33,7 @@ class User extends Authenticatable implements JWTSubject
         return $this->hasMany(Equipo::class, 'leader_id');
     }
 
-    public function jugadorEquipo()
+    public function jugadorEquipos()
     {
         return $this->hasOne(JugadorEquipo::class);
     }
@@ -51,6 +51,16 @@ class User extends Authenticatable implements JWTSubject
     public function lugares()
     {
         return $this->hasMany(Lugar::class, 'leader_id');
+    }
+
+    public function comentarios()
+    {
+        return $this->hasMany(Comentario::class);
+    }
+
+    public function notificaciones()
+    {
+        return $this->hasMany(Notificacione::class);
     }
 
     public function isLeader()

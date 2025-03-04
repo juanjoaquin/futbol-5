@@ -11,8 +11,15 @@ class Lugar extends Model
 
     protected $guarded = [];
 
+    protected $table = 'lugares'; 
+
     public function leader()
     {
         return $this->belongsTo(User::class, 'leader_id');
+    }
+
+    public function equipo()
+    {
+        return $this->belongsTo(Equipo::class, 'equipo_id');
     }
 }

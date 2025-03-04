@@ -11,6 +11,7 @@ class Equipo extends Model
 
     protected $guarded = [];
 
+
     public function leader()
     {
         return $this->belongsTo(User::class, 'leader_id');
@@ -36,8 +37,15 @@ class Equipo extends Model
         return $this->hasMany(Partido::class, 'equipo_visitante_id');
     }
 
+    public function lugares()
+    {
+        return $this->hasMany(Lugar::class, 'equipo_id');
+    }
+
     public function solicitudes()
     {
         return $this->hasMany(Solicitud::class);
     }
+
+    
 }

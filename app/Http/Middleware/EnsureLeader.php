@@ -12,10 +12,10 @@ class EnsureLeader
 {
     public function handle(Request $request, Closure $next): Response
     {
-        if (auth()->check() && auth()->user()->role === 'leader') {
+        if (Auth::guard('api')->check() && Auth::guard('api')->user()->role === 'leader') {
             return $next($request);
         }
-
+    
         return response()->json(['message' => 'Access denied'], 403);
     }
 }
