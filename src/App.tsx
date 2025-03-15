@@ -16,6 +16,7 @@ import { FormMuro } from './components/Muro/FormMuro';
 import { Desafios } from './components/Desafios/Desafios';
 import { DesafiosAceptados } from './components/Desafios/DesafiosAceptados';
 import { SolicitudesJugador } from './components/Solicitudes/SolicitudesJugador';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
         <Route path="/muro/crear-post" element={<FormMuro />} />
         <Route path="/desafios" element={<Desafios />} />
         <Route path="/desafios/aceptados" element={<DesafiosAceptados />} />
+        <Route path="*" element={<NotFound />} />
 
 
       </Routes>
