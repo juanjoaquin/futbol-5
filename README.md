@@ -35,4 +35,4 @@ y en el backend, también tengo aplicado para que únicamente puedan acceder usu
 
 # Imagenes del proyecto
 
-![1](https://imgur.com/31Kfd62)
+![1](https://imgur.com/31Kfd62.jpg)
