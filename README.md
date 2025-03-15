@@ -11,7 +11,10 @@ Cuenta con un componente que es como un Muro, estilo facebook, pero simple. Sola
 pueden borrar los posts aquellos usuarios propietarios del mismo. 
 
 
-``Desarrollo``
+``
+Desarrollo
+``
+
 La desarrollé full stack, con Laravel en el backend, y en el frontend usé React JS + TypeScript. Mientras que para la base de datos utilicé MySQL.
 Tiene validaciones desde el backend, y para el frontend en los formularios aplico Zod. También tiene sus restricciones para los usuarios.
 Esto es en conjunto de los stacks: Cada equipo posee un máximo de jugadores (5), las solicitudes de jugadores o lideres a unirse a los clubes no van a ser creadas en caso
