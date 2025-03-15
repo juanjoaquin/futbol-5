@@ -2,12 +2,14 @@
 
 Lógica de la aplicación
 
-```Es una app web que se centra en la idea de tener un equipo de fútbol, donde vos al ser usuario ya podes tener el tuyo con el simple hecho de crearlo y pasar a ser el líder.
+``
+Es una app web que se centra en la idea de tener un equipo de fútbol, donde vos al ser usuario ya podes tener el tuyo con el simple hecho de crearlo y pasar a ser el líder.
 El líder posee mayores permisos, y manejos que el usuario común, ya que esté puede gestionar solicitudes para aquellos jugadores que quieren unirse a su equipo, también puede
 invitar a jugadores que no poseen un club, y lo más importante es que puede gestionar el hecho de desafiar a otros equipos a jugar un partido. Además el flujo en el caso de
 que el líder abandone el equipo, esté se desintegrá y todos los jugadores pasan a ser libres automáticamente.
 Cuenta con un componente que es como un Muro, estilo facebook, pero simple. Solamente se pueden publicar posts, con su contenido, y otros usuarios pueden comentarlos. Solamente
-pueden borrar los posts aquellos usuarios propietarios del mismo. ```
+pueden borrar los posts aquellos usuarios propietarios del mismo. 
+``
 
 ``Desarrollo``
 La desarrollé full stack, con Laravel en el backend, y en el frontend usé React JS + TypeScript. Mientras que para la base de datos utilicé MySQL.
