@@ -35,4 +35,19 @@ y en el backend, también tengo aplicado para que únicamente puedan acceder usu
 
 # Imagenes del proyecto
 
-![1](https://imgur.com/31Kfd62.jpg)
+![0](https://imgur.com/31Kfd62.jpg)
+![1](https://imgur.com/gRSHFhe.jpg)
+![2](https://imgur.com/xrY5gKP.jpg)
+![3](https://imgur.com/2cxEaEO.jpg)
+![4](https://imgur.com/sNt35bi.jpg)
+![5](https://imgur.com/TEya2Ew.jpg)
+![6](https://imgur.com/PL9JC2s.jpg)
+![7](https://imgur.com/Gr2yIUC.jpg)
+![8](https://imgur.com/iN4KNFC.jpg)
+![9](https://imgur.com/32w235s.jpg)
+![10](https://imgur.com/KT1ShbQ.jpg)
+![11](https://imgur.com/ipcWfX5.jpg)
+![12](https://imgur.com/YM5PYeO.jpg)
+![13](https://imgur.com/50TZJYT.jpg)
+![14](https://imgur.com/F9mzmcs.jpg)
+![15](https://imgur.com/3IBGnYY.jpg)
